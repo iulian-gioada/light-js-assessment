@@ -4,7 +4,7 @@
  * populated at all; your job is to fill them out.
  */
 
-exports.bestPracticesAnswers = {
+var bestPracticesAnswers = {
 	globals : function() {
 		myObject = {
 			name : 'Jory'
@@ -15,9 +15,9 @@ exports.bestPracticesAnswers = {
 
 	functions : function(flag) {
 		if (flag) {
-			function getValue() { return 'a'; }
+
 		} else {
-			function getValue() { return 'b'; }
+
 		}
 
 		return getValue();
